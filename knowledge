@@ -1,0 +1,15 @@
+day 1
+REST stands for Representational State Transfer
+It is just a style of how we design our resources and how we expose them using http.
+Each resource can have a diff URI.
+
+Create -> POST
+Retrieve -> GET
+Retrieve a specific user -> GET / users/{id}
+Delete a user -> DELETE /user/{id}
+
+Retrieve all post for a specific user - GET /users/{id}/posts
+Create a post for a User - POST /users/{id}/posts
+Retrieve details of a post - GET /users/{id}/posts/{post_id}
+
+Validation, Internationalization, Exceptions to be covered further
